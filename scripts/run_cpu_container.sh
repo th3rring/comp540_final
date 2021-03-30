@@ -10,7 +10,6 @@ docker run \
   -d \
   -it \
   --rm \
-  --gpus all \
   -v $DIR:/comp540 \
   -p 8888:8888 \
   -p 8889:8889 \
