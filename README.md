@@ -14,3 +14,11 @@ Download data and add it to the project locally in a directory called Agricultur
 In order to run the notebook containers, run either `run_gpu_container.sh` or `run_cpu_container.sh` depending on whether or not you want GPU acceleration. In order to run either, [Docker must be installed](https://docs.docker.com/get-docker/) and for the GPU containers, [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) must be installed.
 
 All the images are stored in the image directory. When running a container, Docker should try and pull the images from [DockerHub](https://hub.docker.com/r/th3rring/comp540_final/tags?page=1&ordering=last_updated) but if not, manually pull the images to your local machine.
+
+## Accessing Notebooks
+
+Once an image is run, a Jupyter Notebook session will be started on `localhost:8888` and a Jupyter Lab session on `localhost:8889`. The ports for these sessions are set in the Dockerfiles for each associated container. To access these notebooks, visit these URLs in your web browser or click the links below:
+
+[Local Jupyter Notebook](http://localhost:8888)
+
+[Local Jupyter Lab](http://localhost:8889)
