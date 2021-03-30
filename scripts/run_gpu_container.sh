@@ -1,7 +1,7 @@
 #! /bin/bash
 
-# Getting current directory absolute path.
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+# Getting top directory of current git repo.
+DIR="$(git rev-parse --show-toplevel)"
 
 # Run gpu docker image.
 docker run \
