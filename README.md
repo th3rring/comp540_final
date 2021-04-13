@@ -24,3 +24,9 @@ Once an image is run, a Jupyter Notebook session will be started on `localhost:8
 [Local Jupyter Notebook](http://localhost:8888)
 
 [Local Jupyter Lab](http://localhost:8889)
+
+## Online resources
+
+[keras Unet official implementation](https://keras.io/examples/vision/oxford_pets_image_segmentation/)
+[Unet blog post and explanation](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5)
+
