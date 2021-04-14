@@ -2,7 +2,7 @@ FROM tensorflow/tensorflow:latest
 MAINTAINER Thomas Herring teh6@rice.edu
 
 # Copied from tensorflow/tensorflow:latest-gpu-jupyter and modified.
-RUN python3 -m pip install --no-cache-dir jupyter matplotlib jupyterlab
+RUN python3 -m pip install --no-cache-dir jupyter matplotlib jupyterlab keras
 RUN python3 -m pip install --no-cache-dir jupyter_http_over_ws ipykernel==5.1.1 nbformat==4.4.0
 RUN jupyter serverextension enable --py jupyter_http_over_ws
 RUN mkdir /.local && chmod a+rwx /.local
