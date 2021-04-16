@@ -136,6 +136,8 @@ Agriculture-Vision/
 test/
 train/
 val/
+preds/
+
 
 
 
