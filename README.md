@@ -25,6 +25,10 @@ Once an image is run, a Jupyter Notebook session will be started on `localhost:8
 
 [Local Jupyter Lab](http://localhost:8889)
 
+## Running Notebooks
+
+Our most recent implementation of the segmentation model lives in the `unet_model.ipynb` file. The first few cells define helper functions while the later ones actually train and test our models. Choose a model and run the associated cells!
+
 ## Online resources
 
 [keras Unet official implementation](https://keras.io/examples/vision/oxford_pets_image_segmentation/)
